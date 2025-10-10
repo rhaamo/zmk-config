@@ -15,6 +15,12 @@
 #define RAISE 2
 #define ADJUST 3
 
+&led_strip {
+    chain-length = <6>;
+    // chain-length = <35>; // Uncomment if using both per-key and underglow LEDs
+    // chain-length = <29>; // Uncomment if using only per-key LEDs.
+};
+
 / {
     // Activate ADJUST layer by pressing raise and lower
 
